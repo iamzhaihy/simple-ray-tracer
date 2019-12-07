@@ -1,0 +1,13 @@
+# build
+/build/
+
+# Clion build
+/cmake-build-debug/
+
+# Visual Studio build
+/out/
+
+# IDE configs
+/.idea/ 
+/.vs/
+/.vscode/
