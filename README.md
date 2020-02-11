@@ -18,7 +18,7 @@ cmake ..
 cmake --build .
 ```
 
-It is important to include `--recursive` when cloning, otherwise the submodule will not be locally available. The ray-tracing process can take a long time. To make it run faster, you can switch to Release mode by typing `cmake --build . --config Release`.
+It is important to include `--recursive` when cloning. Otherwise, the submodule will not be locally available. The ray-tracing process can take a long time. To make it run faster, you can switch to Release mode by typing `cmake --build . --config Release`.
 
 After the steps listed above, you will see an executable called `simple-ray-tracer`. To run the program, type the command:
 
@@ -59,4 +59,4 @@ The command line argument is optional. If not specified, the scene in `data\sphe
 
 ## Acknowledgments
 
-I borrowed many JSON files made by Professor [Alec Jacobson](https://github.com/alecjacobson). Big thanks to him and the original repository can be find [here](https://github.com/alecjacobson/computer-graphics-ray-tracing).
+I borrowed many JSON files made by Professor [Alec Jacobson](https://github.com/alecjacobson). Big thanks to him and the original repository can be found [here](https://github.com/alecjacobson/computer-graphics-ray-tracing).
