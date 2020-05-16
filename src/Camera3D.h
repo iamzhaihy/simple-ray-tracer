@@ -35,7 +35,7 @@ public:
 
     float getRatio();
 
-    float Camera3D::getFocalLength();
+    float getFocalLength();
     
     glm::vec3 getPosition();
 
